@@ -1,0 +1,180 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  box-sizing: border-box;
+}
+
+.white-color {
+  color: hsl(0, 0%, 100%);
+}
+
+.grey-color {
+  color: hsl(217, 12%, 63%);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  width: 25%;
+  background: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+}
+
+/* Rating Page */
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.circle-rating {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 8%);
+  cursor: pointer;
+}
+
+.inner {
+  position: relative;
+  top: 25%;
+  text-align: center;
+  line-height: 0px;
+}
+
+.inner-text {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  line-height: 0px;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
+  font-style: bold;
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+/* Thank you */
+
+.thankyou-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  width: 25%;
+  background: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+}
+
+.rating-msg-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 25px;
+  height: auto;
+  width: 50%;
+  text-align: center;
+  border-radius: 50px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(216, 12%, 8%);
+}
+
+.thank-you {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you-msg {
+  text-align: center;
+}
+
+/* media queries */
+@media only screen and (max-width: 975px) {
+  .card {
+    width: 50%;
+    font-size: 15px;
+  }
+
+  .thankyou-card {
+    width: 50%;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 75%;
+    font-size: 15px;
+  }
+
+  .thankyou-card {
+    width: 75%;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .card {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .thankyou-card {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .card {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .thankyou-card {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 264px) {
+  .card {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .thankyou-card {
+    width: 100%;
+    font-size: 10px;
+  }
+}
